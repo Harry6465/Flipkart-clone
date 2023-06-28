@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color:#2874f0;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav img{
+    display: block;
+}
+nav p img{
+    display: inline-block;
+}
+.text{
+    font-size: 11px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    top: -5px;
+    color: white;
+}
+.text span{
+    color: yellow;
+    font-weight: 500 ;
+
+}
+.text:hover{
+    text-decoration: underline;
+    
+}
+.searchbox{
+    width: 550px;
+    height: 36px;
+    background-color: white;
+    margin: 0 25px 0 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    color: #2874f0;
+    border-radius: 2px;
+    
+}
+.searchbox input{
+    height: 36px;
+    width: 521px;
+    border: none;
+   outline: none;
+   padding: 0 16px;
+   font-size: 16px;
+}
+.button{
+    width: 121px;
+    height: 32px;
+    margin: 0 20px 0 20px ;
+    font-size: 15px;
+    color: #2874f0;
+    font-weight: 550;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+a{
+    color: white;
+    margin: 0 25px;
+    text-decoration: none;
+    font-weight: 550;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+.categories{
+    background-color: white;
+    height: 112px;
+    width: 1550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    box-shadow: 0 0.1px 2px rgb(124, 121, 121);
+}
+.categories img{
+    display: block;
+    
+    height: 64px;
+    width: 64px;
+}
+div{
+   margin: 0 20px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ p{
+    display: inline-block;
+}
+.banner{
+    height: 280px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.banner img{
+
+    height: 280px;
+    width: 1680px;
+    position: relative;
+    left: -5%;
+}
+.banner button{
+    height: 104px;
+    width: 47px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+   
+}
+.btn{
+   
+
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -70%;
+    margin: 0;
+
+}
